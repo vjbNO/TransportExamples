@@ -1,0 +1,672 @@
+11-10-2024 [12:47:53] Logfile opened
+11-10-2024 [12:47:53] Executable : vampire-parallel
+11-10-2024 [12:47:53] Host name  : idun-03-30:
+11-10-2024 [12:47:53] Directory  : /cluster/home/verenajb/DemoPlotsPromotion/FM_torqueInj_plus0p01
+11-10-2024 [12:47:53] Process ID : 3180160
+11-10-2024 [12:47:53] Version    : 6.0.0
+11-10-2024 [12:47:53] Githash    : 86f472e8fc37028e39088b08405adc8bfd241682
+11-10-2024 [12:47:53] Opening main input file "input".
+11-10-2024 [12:47:53] Parsing system parameters from main input file.
+11-10-2024 [12:47:53] Opening material file "Toy2mat.mat".
+11-10-2024 [12:47:53] Parsing material file for parameters.
+11-10-2024 [12:47:53] Generating neighbour interactions for a lattice of 5 x 5 x 5 unit cells for neighbour calculation
+11-10-2024 [12:47:53] System decomposed into 1 x 1 x 1 processors for parallel execution
+11-10-2024 [12:47:53] Cutting materials within defined geometry.
+11-10-2024 [12:47:53] Calculating alloy properties of system
+11-10-2024 [12:47:53] Determining atomic composition:
+11-10-2024 [12:47:53] Material 1 Excitation makes up 10 % of all atoms ( 1000 atoms )
+11-10-2024 [12:47:53] Material 2 Propagation makes up 90 % of all atoms ( 9000 atoms )
+11-10-2024 [12:47:53] Copying halo atoms to other processors...
+11-10-2024 [12:47:53]    Determining CPU ranges in x,y,z
+11-10-2024 [12:47:53]      Completed. Time taken: 3.8786e-05 s
+11-10-2024 [12:47:53]    Determining atoms needed by remote CPUs
+11-10-2024 [12:47:53]      Completed. Time taken: 0.000240014 s
+11-10-2024 [12:47:53]    Sharing number of atoms to be sent/received from each CPU
+11-10-2024 [12:47:53]      Completed. Time taken: 2.708e-06 s
+11-10-2024 [12:47:53]    Sending boundary atom data to all relevant CPUs
+11-10-2024 [12:47:53]      Completed. Time taken: 2.089e-06 s
+11-10-2024 [12:47:53] 	done! Total time taken: 0.000332048
+11-10-2024 [12:47:53] Memory required for neighbourlist calculation (each cpu):0 MB
+11-10-2024 [12:47:53] Memory required for neighbourlist calculation (all cpus):0 MB
+11-10-2024 [12:47:53] Allocating memory for supercell array in neighbourlist calculation
+11-10-2024 [12:47:53] 	Allocating memory done
+11-10-2024 [12:47:53] Populating supercell array for neighbourlist calculation...
+11-10-2024 [12:47:53] 	Populating supercell array completed
+11-10-2024 [12:47:53] Memory required for neighbour list (each cpu):0 MB
+11-10-2024 [12:47:53] Memory required for neighbour list (all cpus):0 MB
+11-10-2024 [12:47:53] Generating neighbour list...
+11-10-2024 [12:47:53] 	Neighbour list calculation complete
+11-10-2024 [12:47:53] Deallocating supercell array for neighbour list calculation
+11-10-2024 [12:47:53] 	Supercell array deallocated
+11-10-2024 [12:47:53] Number of core  atoms: 10000
+11-10-2024 [12:47:53] Number of local atoms: 10000
+11-10-2024 [12:47:53] Number of total atoms: 10000
+11-10-2024 [12:47:53] Initialising MPI communications...
+11-10-2024 [12:47:53] 	done! Total time taken: 6.4189e-05
+11-10-2024 [12:47:53] Copying system data to optimised data structures.
+11-10-2024 [12:47:53] Number of atoms generated on rank 0: 10000
+11-10-2024 [12:47:53] Memory required for copying to performance array on rank 0: 1.52 MB RAM
+11-10-2024 [12:47:53] Identifying surface atoms using global threshold value of 6
+11-10-2024 [12:47:53] 10000 surface atoms found.
+11-10-2024 [12:47:53] Memory required for creation of 1D neighbour list on rank 0: 0.16 MB RAM
+11-10-2024 [12:47:53] Initialising data structures for exchange calculation.
+11-10-2024 [12:47:53] Unrolled exchange template requires 0.316MB RAM
+11-10-2024 [12:47:53] Total number of atoms (all CPUs): 10000
+11-10-2024 [12:47:53] Initializing vampire modules
+11-10-2024 [12:47:53] Macrocell size = 10,10,10 Angstroms
+11-10-2024 [12:47:53] Macrocells in x,y,z: 201	51	2
+11-10-2024 [12:47:53] Total number of macrocells: 20502
+11-10-2024 [12:47:53] Memory required for macrocell arrays: 1.64016 MB
+11-10-2024 [12:47:53] Number of local macrocells on rank 0: 10000
+11-10-2024 [12:47:53] Initializing spin pumping module
+11-10-2024 [12:47:53] Initializing structures for atomistic calculation of spin pumping
+11-10-2024 [12:47:53] Initializing structures for cell-resolved calculation of spin pumping
+11-10-2024 [12:47:53] Outputting atomistic coordinates for spin pumping to file atoms-spin-pumping-coords.data
+11-10-2024 [12:47:53] Initialising data structures for anisotropy calculation for 100 materials
+11-10-2024 [12:47:53] Flag:checkpoint_loaded_flag = 1
+11-10-2024 [12:47:53] Checkpoint file loaded at sim::time 0.
+11-10-2024 [12:47:53] Initialising statistics module
+11-10-2024 [12:47:53] Time for initialisation: 0.0499573
+11-10-2024 [12:47:53] Starting Simulation with Program Time-Series...
+11-10-2024 [12:47:53] Outputting spin pumping data to file atoms-spin-pumping-00000000.data
+11-10-2024 [12:47:54] Outputting spin pumping data to file atoms-spin-pumping-00000001.data
+11-10-2024 [12:47:54] Outputting spin pumping data to file atoms-spin-pumping-00000002.data
+11-10-2024 [12:47:55] Outputting spin pumping data to file atoms-spin-pumping-00000003.data
+11-10-2024 [12:47:55] Outputting spin pumping data to file atoms-spin-pumping-00000004.data
+11-10-2024 [12:47:56] Outputting spin pumping data to file atoms-spin-pumping-00000005.data
+11-10-2024 [12:47:56] Outputting spin pumping data to file atoms-spin-pumping-00000006.data
+11-10-2024 [12:47:57] Outputting spin pumping data to file atoms-spin-pumping-00000007.data
+11-10-2024 [12:47:57] Outputting spin pumping data to file atoms-spin-pumping-00000008.data
+11-10-2024 [12:47:58] Outputting spin pumping data to file atoms-spin-pumping-00000009.data
+11-10-2024 [12:47:58] Outputting spin pumping data to file atoms-spin-pumping-00000010.data
+11-10-2024 [12:47:59] Outputting spin pumping data to file atoms-spin-pumping-00000011.data
+11-10-2024 [12:48:00] Outputting spin pumping data to file atoms-spin-pumping-00000012.data
+11-10-2024 [12:48:00] Outputting spin pumping data to file atoms-spin-pumping-00000013.data
+11-10-2024 [12:48:01] Outputting spin pumping data to file atoms-spin-pumping-00000014.data
+11-10-2024 [12:48:01] Outputting spin pumping data to file atoms-spin-pumping-00000015.data
+11-10-2024 [12:48:02] Outputting spin pumping data to file atoms-spin-pumping-00000016.data
+11-10-2024 [12:48:02] Outputting spin pumping data to file atoms-spin-pumping-00000017.data
+11-10-2024 [12:48:03] Outputting spin pumping data to file atoms-spin-pumping-00000018.data
+11-10-2024 [12:48:03] Outputting spin pumping data to file atoms-spin-pumping-00000019.data
+11-10-2024 [12:48:04] Outputting spin pumping data to file atoms-spin-pumping-00000020.data
+11-10-2024 [12:48:04] Outputting spin pumping data to file atoms-spin-pumping-00000021.data
+11-10-2024 [12:48:05] Outputting spin pumping data to file atoms-spin-pumping-00000022.data
+11-10-2024 [12:48:05] Outputting spin pumping data to file atoms-spin-pumping-00000023.data
+11-10-2024 [12:48:06] Outputting spin pumping data to file atoms-spin-pumping-00000024.data
+11-10-2024 [12:48:06] Outputting spin pumping data to file atoms-spin-pumping-00000025.data
+11-10-2024 [12:48:07] Outputting spin pumping data to file atoms-spin-pumping-00000026.data
+11-10-2024 [12:48:08] Outputting spin pumping data to file atoms-spin-pumping-00000027.data
+11-10-2024 [12:48:08] Outputting spin pumping data to file atoms-spin-pumping-00000028.data
+11-10-2024 [12:48:09] Outputting spin pumping data to file atoms-spin-pumping-00000029.data
+11-10-2024 [12:48:09] Outputting spin pumping data to file atoms-spin-pumping-00000030.data
+11-10-2024 [12:48:10] Outputting spin pumping data to file atoms-spin-pumping-00000031.data
+11-10-2024 [12:48:10] Outputting spin pumping data to file atoms-spin-pumping-00000032.data
+11-10-2024 [12:48:11] Outputting spin pumping data to file atoms-spin-pumping-00000033.data
+11-10-2024 [12:48:11] Outputting spin pumping data to file atoms-spin-pumping-00000034.data
+11-10-2024 [12:48:12] Outputting spin pumping data to file atoms-spin-pumping-00000035.data
+11-10-2024 [12:48:12] Outputting spin pumping data to file atoms-spin-pumping-00000036.data
+11-10-2024 [12:48:13] Outputting spin pumping data to file atoms-spin-pumping-00000037.data
+11-10-2024 [12:48:13] Outputting spin pumping data to file atoms-spin-pumping-00000038.data
+11-10-2024 [12:48:14] Outputting spin pumping data to file atoms-spin-pumping-00000039.data
+11-10-2024 [12:48:14] Outputting spin pumping data to file atoms-spin-pumping-00000040.data
+11-10-2024 [12:48:15] Outputting spin pumping data to file atoms-spin-pumping-00000041.data
+11-10-2024 [12:48:15] Outputting spin pumping data to file atoms-spin-pumping-00000042.data
+11-10-2024 [12:48:16] Outputting spin pumping data to file atoms-spin-pumping-00000043.data
+11-10-2024 [12:48:17] Outputting spin pumping data to file atoms-spin-pumping-00000044.data
+11-10-2024 [12:48:17] Outputting spin pumping data to file atoms-spin-pumping-00000045.data
+11-10-2024 [12:48:18] Outputting spin pumping data to file atoms-spin-pumping-00000046.data
+11-10-2024 [12:48:18] Outputting spin pumping data to file atoms-spin-pumping-00000047.data
+11-10-2024 [12:48:19] Outputting spin pumping data to file atoms-spin-pumping-00000048.data
+11-10-2024 [12:48:19] Outputting spin pumping data to file atoms-spin-pumping-00000049.data
+11-10-2024 [12:48:20] Outputting spin pumping data to file atoms-spin-pumping-00000050.data
+11-10-2024 [12:48:20] Outputting spin pumping data to file atoms-spin-pumping-00000051.data
+11-10-2024 [12:48:21] Outputting spin pumping data to file atoms-spin-pumping-00000052.data
+11-10-2024 [12:48:21] Outputting spin pumping data to file atoms-spin-pumping-00000053.data
+11-10-2024 [12:48:22] Outputting spin pumping data to file atoms-spin-pumping-00000054.data
+11-10-2024 [12:48:22] Outputting spin pumping data to file atoms-spin-pumping-00000055.data
+11-10-2024 [12:48:23] Outputting spin pumping data to file atoms-spin-pumping-00000056.data
+11-10-2024 [12:48:23] Outputting spin pumping data to file atoms-spin-pumping-00000057.data
+11-10-2024 [12:48:24] Outputting spin pumping data to file atoms-spin-pumping-00000058.data
+11-10-2024 [12:48:25] Outputting spin pumping data to file atoms-spin-pumping-00000059.data
+11-10-2024 [12:48:25] Outputting spin pumping data to file atoms-spin-pumping-00000060.data
+11-10-2024 [12:48:26] Outputting spin pumping data to file atoms-spin-pumping-00000061.data
+11-10-2024 [12:48:26] Outputting spin pumping data to file atoms-spin-pumping-00000062.data
+11-10-2024 [12:48:27] Outputting spin pumping data to file atoms-spin-pumping-00000063.data
+11-10-2024 [12:48:27] Outputting spin pumping data to file atoms-spin-pumping-00000064.data
+11-10-2024 [12:48:28] Outputting spin pumping data to file atoms-spin-pumping-00000065.data
+11-10-2024 [12:48:28] Outputting spin pumping data to file atoms-spin-pumping-00000066.data
+11-10-2024 [12:48:29] Outputting spin pumping data to file atoms-spin-pumping-00000067.data
+11-10-2024 [12:48:29] Outputting spin pumping data to file atoms-spin-pumping-00000068.data
+11-10-2024 [12:48:30] Outputting spin pumping data to file atoms-spin-pumping-00000069.data
+11-10-2024 [12:48:30] Outputting spin pumping data to file atoms-spin-pumping-00000070.data
+11-10-2024 [12:48:31] Outputting spin pumping data to file atoms-spin-pumping-00000071.data
+11-10-2024 [12:48:31] Outputting spin pumping data to file atoms-spin-pumping-00000072.data
+11-10-2024 [12:48:32] Outputting spin pumping data to file atoms-spin-pumping-00000073.data
+11-10-2024 [12:48:32] Outputting spin pumping data to file atoms-spin-pumping-00000074.data
+11-10-2024 [12:48:33] Outputting spin pumping data to file atoms-spin-pumping-00000075.data
+11-10-2024 [12:48:34] Outputting spin pumping data to file atoms-spin-pumping-00000076.data
+11-10-2024 [12:48:34] Outputting spin pumping data to file atoms-spin-pumping-00000077.data
+11-10-2024 [12:48:35] Outputting spin pumping data to file atoms-spin-pumping-00000078.data
+11-10-2024 [12:48:35] Outputting spin pumping data to file atoms-spin-pumping-00000079.data
+11-10-2024 [12:48:36] Outputting spin pumping data to file atoms-spin-pumping-00000080.data
+11-10-2024 [12:48:36] Outputting spin pumping data to file atoms-spin-pumping-00000081.data
+11-10-2024 [12:48:37] Outputting spin pumping data to file atoms-spin-pumping-00000082.data
+11-10-2024 [12:48:37] Outputting spin pumping data to file atoms-spin-pumping-00000083.data
+11-10-2024 [12:48:38] Outputting spin pumping data to file atoms-spin-pumping-00000084.data
+11-10-2024 [12:48:38] Outputting spin pumping data to file atoms-spin-pumping-00000085.data
+11-10-2024 [12:48:39] Outputting spin pumping data to file atoms-spin-pumping-00000086.data
+11-10-2024 [12:48:39] Outputting spin pumping data to file atoms-spin-pumping-00000087.data
+11-10-2024 [12:48:40] Outputting spin pumping data to file atoms-spin-pumping-00000088.data
+11-10-2024 [12:48:40] Outputting spin pumping data to file atoms-spin-pumping-00000089.data
+11-10-2024 [12:48:41] Outputting spin pumping data to file atoms-spin-pumping-00000090.data
+11-10-2024 [12:48:41] Outputting spin pumping data to file atoms-spin-pumping-00000091.data
+11-10-2024 [12:48:42] Outputting spin pumping data to file atoms-spin-pumping-00000092.data
+11-10-2024 [12:48:42] Outputting spin pumping data to file atoms-spin-pumping-00000093.data
+11-10-2024 [12:48:43] Outputting spin pumping data to file atoms-spin-pumping-00000094.data
+11-10-2024 [12:48:43] Outputting spin pumping data to file atoms-spin-pumping-00000095.data
+11-10-2024 [12:48:44] Outputting spin pumping data to file atoms-spin-pumping-00000096.data
+11-10-2024 [12:48:45] Outputting spin pumping data to file atoms-spin-pumping-00000097.data
+11-10-2024 [12:48:45] Outputting spin pumping data to file atoms-spin-pumping-00000098.data
+11-10-2024 [12:48:46] Outputting spin pumping data to file atoms-spin-pumping-00000099.data
+11-10-2024 [12:48:46] Outputting spin pumping data to file atoms-spin-pumping-00000100.data
+11-10-2024 [12:48:47] Outputting spin pumping data to file atoms-spin-pumping-00000101.data
+11-10-2024 [12:48:47] Outputting spin pumping data to file atoms-spin-pumping-00000102.data
+11-10-2024 [12:48:48] Outputting spin pumping data to file atoms-spin-pumping-00000103.data
+11-10-2024 [12:48:48] Outputting spin pumping data to file atoms-spin-pumping-00000104.data
+11-10-2024 [12:48:49] Outputting spin pumping data to file atoms-spin-pumping-00000105.data
+11-10-2024 [12:48:49] Outputting spin pumping data to file atoms-spin-pumping-00000106.data
+11-10-2024 [12:48:50] Outputting spin pumping data to file atoms-spin-pumping-00000107.data
+11-10-2024 [12:48:50] Outputting spin pumping data to file atoms-spin-pumping-00000108.data
+11-10-2024 [12:48:51] Outputting spin pumping data to file atoms-spin-pumping-00000109.data
+11-10-2024 [12:48:51] Outputting spin pumping data to file atoms-spin-pumping-00000110.data
+11-10-2024 [12:48:52] Outputting spin pumping data to file atoms-spin-pumping-00000111.data
+11-10-2024 [12:48:53] Outputting spin pumping data to file atoms-spin-pumping-00000112.data
+11-10-2024 [12:48:53] Outputting spin pumping data to file atoms-spin-pumping-00000113.data
+11-10-2024 [12:48:54] Outputting spin pumping data to file atoms-spin-pumping-00000114.data
+11-10-2024 [12:48:54] Outputting spin pumping data to file atoms-spin-pumping-00000115.data
+11-10-2024 [12:48:55] Outputting spin pumping data to file atoms-spin-pumping-00000116.data
+11-10-2024 [12:48:55] Outputting spin pumping data to file atoms-spin-pumping-00000117.data
+11-10-2024 [12:48:56] Outputting spin pumping data to file atoms-spin-pumping-00000118.data
+11-10-2024 [12:48:56] Outputting spin pumping data to file atoms-spin-pumping-00000119.data
+11-10-2024 [12:48:57] Outputting spin pumping data to file atoms-spin-pumping-00000120.data
+11-10-2024 [12:48:57] Outputting spin pumping data to file atoms-spin-pumping-00000121.data
+11-10-2024 [12:48:58] Outputting spin pumping data to file atoms-spin-pumping-00000122.data
+11-10-2024 [12:48:58] Outputting spin pumping data to file atoms-spin-pumping-00000123.data
+11-10-2024 [12:48:59] Outputting spin pumping data to file atoms-spin-pumping-00000124.data
+11-10-2024 [12:48:59] Outputting spin pumping data to file atoms-spin-pumping-00000125.data
+11-10-2024 [12:49:00] Outputting spin pumping data to file atoms-spin-pumping-00000126.data
+11-10-2024 [12:49:00] Outputting spin pumping data to file atoms-spin-pumping-00000127.data
+11-10-2024 [12:49:01] Outputting spin pumping data to file atoms-spin-pumping-00000128.data
+11-10-2024 [12:49:01] Outputting spin pumping data to file atoms-spin-pumping-00000129.data
+11-10-2024 [12:49:02] Outputting spin pumping data to file atoms-spin-pumping-00000130.data
+11-10-2024 [12:49:02] Outputting spin pumping data to file atoms-spin-pumping-00000131.data
+11-10-2024 [12:49:03] Outputting spin pumping data to file atoms-spin-pumping-00000132.data
+11-10-2024 [12:49:04] Outputting spin pumping data to file atoms-spin-pumping-00000133.data
+11-10-2024 [12:49:04] Outputting spin pumping data to file atoms-spin-pumping-00000134.data
+11-10-2024 [12:49:05] Outputting spin pumping data to file atoms-spin-pumping-00000135.data
+11-10-2024 [12:49:05] Outputting spin pumping data to file atoms-spin-pumping-00000136.data
+11-10-2024 [12:49:06] Outputting spin pumping data to file atoms-spin-pumping-00000137.data
+11-10-2024 [12:49:06] Outputting spin pumping data to file atoms-spin-pumping-00000138.data
+11-10-2024 [12:49:07] Outputting spin pumping data to file atoms-spin-pumping-00000139.data
+11-10-2024 [12:49:07] Outputting spin pumping data to file atoms-spin-pumping-00000140.data
+11-10-2024 [12:49:08] Outputting spin pumping data to file atoms-spin-pumping-00000141.data
+11-10-2024 [12:49:08] Outputting spin pumping data to file atoms-spin-pumping-00000142.data
+11-10-2024 [12:49:09] Outputting spin pumping data to file atoms-spin-pumping-00000143.data
+11-10-2024 [12:49:09] Outputting spin pumping data to file atoms-spin-pumping-00000144.data
+11-10-2024 [12:49:10] Outputting spin pumping data to file atoms-spin-pumping-00000145.data
+11-10-2024 [12:49:10] Outputting spin pumping data to file atoms-spin-pumping-00000146.data
+11-10-2024 [12:49:11] Outputting spin pumping data to file atoms-spin-pumping-00000147.data
+11-10-2024 [12:49:12] Outputting spin pumping data to file atoms-spin-pumping-00000148.data
+11-10-2024 [12:49:12] Outputting spin pumping data to file atoms-spin-pumping-00000149.data
+11-10-2024 [12:49:13] Outputting spin pumping data to file atoms-spin-pumping-00000150.data
+11-10-2024 [12:49:13] Outputting spin pumping data to file atoms-spin-pumping-00000151.data
+11-10-2024 [12:49:14] Outputting spin pumping data to file atoms-spin-pumping-00000152.data
+11-10-2024 [12:49:14] Outputting spin pumping data to file atoms-spin-pumping-00000153.data
+11-10-2024 [12:49:15] Outputting spin pumping data to file atoms-spin-pumping-00000154.data
+11-10-2024 [12:49:15] Outputting spin pumping data to file atoms-spin-pumping-00000155.data
+11-10-2024 [12:49:16] Outputting spin pumping data to file atoms-spin-pumping-00000156.data
+11-10-2024 [12:49:16] Outputting spin pumping data to file atoms-spin-pumping-00000157.data
+11-10-2024 [12:49:17] Outputting spin pumping data to file atoms-spin-pumping-00000158.data
+11-10-2024 [12:49:17] Outputting spin pumping data to file atoms-spin-pumping-00000159.data
+11-10-2024 [12:49:18] Outputting spin pumping data to file atoms-spin-pumping-00000160.data
+11-10-2024 [12:49:18] Outputting spin pumping data to file atoms-spin-pumping-00000161.data
+11-10-2024 [12:49:19] Outputting spin pumping data to file atoms-spin-pumping-00000162.data
+11-10-2024 [12:49:19] Outputting spin pumping data to file atoms-spin-pumping-00000163.data
+11-10-2024 [12:49:20] Outputting spin pumping data to file atoms-spin-pumping-00000164.data
+11-10-2024 [12:49:21] Outputting spin pumping data to file atoms-spin-pumping-00000165.data
+11-10-2024 [12:49:21] Outputting spin pumping data to file atoms-spin-pumping-00000166.data
+11-10-2024 [12:49:22] Outputting spin pumping data to file atoms-spin-pumping-00000167.data
+11-10-2024 [12:49:22] Outputting spin pumping data to file atoms-spin-pumping-00000168.data
+11-10-2024 [12:49:23] Outputting spin pumping data to file atoms-spin-pumping-00000169.data
+11-10-2024 [12:49:23] Outputting spin pumping data to file atoms-spin-pumping-00000170.data
+11-10-2024 [12:49:24] Outputting spin pumping data to file atoms-spin-pumping-00000171.data
+11-10-2024 [12:49:24] Outputting spin pumping data to file atoms-spin-pumping-00000172.data
+11-10-2024 [12:49:25] Outputting spin pumping data to file atoms-spin-pumping-00000173.data
+11-10-2024 [12:49:25] Outputting spin pumping data to file atoms-spin-pumping-00000174.data
+11-10-2024 [12:49:26] Outputting spin pumping data to file atoms-spin-pumping-00000175.data
+11-10-2024 [12:49:26] Outputting spin pumping data to file atoms-spin-pumping-00000176.data
+11-10-2024 [12:49:27] Outputting spin pumping data to file atoms-spin-pumping-00000177.data
+11-10-2024 [12:49:27] Outputting spin pumping data to file atoms-spin-pumping-00000178.data
+11-10-2024 [12:49:28] Outputting spin pumping data to file atoms-spin-pumping-00000179.data
+11-10-2024 [12:49:28] Outputting spin pumping data to file atoms-spin-pumping-00000180.data
+11-10-2024 [12:49:29] Outputting spin pumping data to file atoms-spin-pumping-00000181.data
+11-10-2024 [12:49:29] Outputting spin pumping data to file atoms-spin-pumping-00000182.data
+11-10-2024 [12:49:30] Outputting spin pumping data to file atoms-spin-pumping-00000183.data
+11-10-2024 [12:49:31] Outputting spin pumping data to file atoms-spin-pumping-00000184.data
+11-10-2024 [12:49:31] Outputting spin pumping data to file atoms-spin-pumping-00000185.data
+11-10-2024 [12:49:32] Outputting spin pumping data to file atoms-spin-pumping-00000186.data
+11-10-2024 [12:49:32] Outputting spin pumping data to file atoms-spin-pumping-00000187.data
+11-10-2024 [12:49:33] Outputting spin pumping data to file atoms-spin-pumping-00000188.data
+11-10-2024 [12:49:33] Outputting spin pumping data to file atoms-spin-pumping-00000189.data
+11-10-2024 [12:49:34] Outputting spin pumping data to file atoms-spin-pumping-00000190.data
+11-10-2024 [12:49:34] Outputting spin pumping data to file atoms-spin-pumping-00000191.data
+11-10-2024 [12:49:35] Outputting spin pumping data to file atoms-spin-pumping-00000192.data
+11-10-2024 [12:49:35] Outputting spin pumping data to file atoms-spin-pumping-00000193.data
+11-10-2024 [12:49:36] Outputting spin pumping data to file atoms-spin-pumping-00000194.data
+11-10-2024 [12:49:36] Outputting spin pumping data to file atoms-spin-pumping-00000195.data
+11-10-2024 [12:49:37] Outputting spin pumping data to file atoms-spin-pumping-00000196.data
+11-10-2024 [12:49:37] Outputting spin pumping data to file atoms-spin-pumping-00000197.data
+11-10-2024 [12:49:38] Outputting spin pumping data to file atoms-spin-pumping-00000198.data
+11-10-2024 [12:49:39] Outputting spin pumping data to file atoms-spin-pumping-00000199.data
+11-10-2024 [12:49:39] Outputting spin pumping data to file atoms-spin-pumping-00000200.data
+11-10-2024 [12:49:40] Outputting spin pumping data to file atoms-spin-pumping-00000201.data
+11-10-2024 [12:49:40] Outputting spin pumping data to file atoms-spin-pumping-00000202.data
+11-10-2024 [12:49:41] Outputting spin pumping data to file atoms-spin-pumping-00000203.data
+11-10-2024 [12:49:41] Outputting spin pumping data to file atoms-spin-pumping-00000204.data
+11-10-2024 [12:49:42] Outputting spin pumping data to file atoms-spin-pumping-00000205.data
+11-10-2024 [12:49:42] Outputting spin pumping data to file atoms-spin-pumping-00000206.data
+11-10-2024 [12:49:43] Outputting spin pumping data to file atoms-spin-pumping-00000207.data
+11-10-2024 [12:49:43] Outputting spin pumping data to file atoms-spin-pumping-00000208.data
+11-10-2024 [12:49:44] Outputting spin pumping data to file atoms-spin-pumping-00000209.data
+11-10-2024 [12:49:44] Outputting spin pumping data to file atoms-spin-pumping-00000210.data
+11-10-2024 [12:49:45] Outputting spin pumping data to file atoms-spin-pumping-00000211.data
+11-10-2024 [12:49:45] Outputting spin pumping data to file atoms-spin-pumping-00000212.data
+11-10-2024 [12:49:46] Outputting spin pumping data to file atoms-spin-pumping-00000213.data
+11-10-2024 [12:49:46] Outputting spin pumping data to file atoms-spin-pumping-00000214.data
+11-10-2024 [12:49:47] Outputting spin pumping data to file atoms-spin-pumping-00000215.data
+11-10-2024 [12:49:47] Outputting spin pumping data to file atoms-spin-pumping-00000216.data
+11-10-2024 [12:49:48] Outputting spin pumping data to file atoms-spin-pumping-00000217.data
+11-10-2024 [12:49:48] Outputting spin pumping data to file atoms-spin-pumping-00000218.data
+11-10-2024 [12:49:49] Outputting spin pumping data to file atoms-spin-pumping-00000219.data
+11-10-2024 [12:49:50] Outputting spin pumping data to file atoms-spin-pumping-00000220.data
+11-10-2024 [12:49:50] Outputting spin pumping data to file atoms-spin-pumping-00000221.data
+11-10-2024 [12:49:51] Outputting spin pumping data to file atoms-spin-pumping-00000222.data
+11-10-2024 [12:49:51] Outputting spin pumping data to file atoms-spin-pumping-00000223.data
+11-10-2024 [12:49:52] Outputting spin pumping data to file atoms-spin-pumping-00000224.data
+11-10-2024 [12:49:52] Outputting spin pumping data to file atoms-spin-pumping-00000225.data
+11-10-2024 [12:49:53] Outputting spin pumping data to file atoms-spin-pumping-00000226.data
+11-10-2024 [12:49:53] Outputting spin pumping data to file atoms-spin-pumping-00000227.data
+11-10-2024 [12:49:54] Outputting spin pumping data to file atoms-spin-pumping-00000228.data
+11-10-2024 [12:49:54] Outputting spin pumping data to file atoms-spin-pumping-00000229.data
+11-10-2024 [12:49:55] Outputting spin pumping data to file atoms-spin-pumping-00000230.data
+11-10-2024 [12:49:55] Outputting spin pumping data to file atoms-spin-pumping-00000231.data
+11-10-2024 [12:49:56] Outputting spin pumping data to file atoms-spin-pumping-00000232.data
+11-10-2024 [12:49:56] Outputting spin pumping data to file atoms-spin-pumping-00000233.data
+11-10-2024 [12:49:57] Outputting spin pumping data to file atoms-spin-pumping-00000234.data
+11-10-2024 [12:49:58] Outputting spin pumping data to file atoms-spin-pumping-00000235.data
+11-10-2024 [12:49:58] Outputting spin pumping data to file atoms-spin-pumping-00000236.data
+11-10-2024 [12:49:59] Outputting spin pumping data to file atoms-spin-pumping-00000237.data
+11-10-2024 [12:49:59] Outputting spin pumping data to file atoms-spin-pumping-00000238.data
+11-10-2024 [12:50:00] Outputting spin pumping data to file atoms-spin-pumping-00000239.data
+11-10-2024 [12:50:00] Outputting spin pumping data to file atoms-spin-pumping-00000240.data
+11-10-2024 [12:50:01] Outputting spin pumping data to file atoms-spin-pumping-00000241.data
+11-10-2024 [12:50:01] Outputting spin pumping data to file atoms-spin-pumping-00000242.data
+11-10-2024 [12:50:02] Outputting spin pumping data to file atoms-spin-pumping-00000243.data
+11-10-2024 [12:50:02] Outputting spin pumping data to file atoms-spin-pumping-00000244.data
+11-10-2024 [12:50:03] Outputting spin pumping data to file atoms-spin-pumping-00000245.data
+11-10-2024 [12:50:03] Outputting spin pumping data to file atoms-spin-pumping-00000246.data
+11-10-2024 [12:50:04] Outputting spin pumping data to file atoms-spin-pumping-00000247.data
+11-10-2024 [12:50:04] Outputting spin pumping data to file atoms-spin-pumping-00000248.data
+11-10-2024 [12:50:05] Outputting spin pumping data to file atoms-spin-pumping-00000249.data
+11-10-2024 [12:50:05] Outputting spin pumping data to file atoms-spin-pumping-00000250.data
+11-10-2024 [12:50:06] Outputting spin pumping data to file atoms-spin-pumping-00000251.data
+11-10-2024 [12:50:06] Outputting spin pumping data to file atoms-spin-pumping-00000252.data
+11-10-2024 [12:50:07] Outputting spin pumping data to file atoms-spin-pumping-00000253.data
+11-10-2024 [12:50:08] Outputting spin pumping data to file atoms-spin-pumping-00000254.data
+11-10-2024 [12:50:08] Outputting spin pumping data to file atoms-spin-pumping-00000255.data
+11-10-2024 [12:50:09] Outputting spin pumping data to file atoms-spin-pumping-00000256.data
+11-10-2024 [12:50:09] Outputting spin pumping data to file atoms-spin-pumping-00000257.data
+11-10-2024 [12:50:10] Outputting spin pumping data to file atoms-spin-pumping-00000258.data
+11-10-2024 [12:50:10] Outputting spin pumping data to file atoms-spin-pumping-00000259.data
+11-10-2024 [12:50:11] Outputting spin pumping data to file atoms-spin-pumping-00000260.data
+11-10-2024 [12:50:11] Outputting spin pumping data to file atoms-spin-pumping-00000261.data
+11-10-2024 [12:50:12] Outputting spin pumping data to file atoms-spin-pumping-00000262.data
+11-10-2024 [12:50:12] Outputting spin pumping data to file atoms-spin-pumping-00000263.data
+11-10-2024 [12:50:13] Outputting spin pumping data to file atoms-spin-pumping-00000264.data
+11-10-2024 [12:50:13] Outputting spin pumping data to file atoms-spin-pumping-00000265.data
+11-10-2024 [12:50:14] Outputting spin pumping data to file atoms-spin-pumping-00000266.data
+11-10-2024 [12:50:15] Outputting spin pumping data to file atoms-spin-pumping-00000267.data
+11-10-2024 [12:50:15] Outputting spin pumping data to file atoms-spin-pumping-00000268.data
+11-10-2024 [12:50:16] Outputting spin pumping data to file atoms-spin-pumping-00000269.data
+11-10-2024 [12:50:16] Outputting spin pumping data to file atoms-spin-pumping-00000270.data
+11-10-2024 [12:50:17] Outputting spin pumping data to file atoms-spin-pumping-00000271.data
+11-10-2024 [12:50:17] Outputting spin pumping data to file atoms-spin-pumping-00000272.data
+11-10-2024 [12:50:18] Outputting spin pumping data to file atoms-spin-pumping-00000273.data
+11-10-2024 [12:50:18] Outputting spin pumping data to file atoms-spin-pumping-00000274.data
+11-10-2024 [12:50:19] Outputting spin pumping data to file atoms-spin-pumping-00000275.data
+11-10-2024 [12:50:19] Outputting spin pumping data to file atoms-spin-pumping-00000276.data
+11-10-2024 [12:50:20] Outputting spin pumping data to file atoms-spin-pumping-00000277.data
+11-10-2024 [12:50:20] Outputting spin pumping data to file atoms-spin-pumping-00000278.data
+11-10-2024 [12:50:21] Outputting spin pumping data to file atoms-spin-pumping-00000279.data
+11-10-2024 [12:50:21] Outputting spin pumping data to file atoms-spin-pumping-00000280.data
+11-10-2024 [12:50:22] Outputting spin pumping data to file atoms-spin-pumping-00000281.data
+11-10-2024 [12:50:22] Outputting spin pumping data to file atoms-spin-pumping-00000282.data
+11-10-2024 [12:50:23] Outputting spin pumping data to file atoms-spin-pumping-00000283.data
+11-10-2024 [12:50:23] Outputting spin pumping data to file atoms-spin-pumping-00000284.data
+11-10-2024 [12:50:24] Outputting spin pumping data to file atoms-spin-pumping-00000285.data
+11-10-2024 [12:50:25] Outputting spin pumping data to file atoms-spin-pumping-00000286.data
+11-10-2024 [12:50:25] Outputting spin pumping data to file atoms-spin-pumping-00000287.data
+11-10-2024 [12:50:26] Outputting spin pumping data to file atoms-spin-pumping-00000288.data
+11-10-2024 [12:50:26] Outputting spin pumping data to file atoms-spin-pumping-00000289.data
+11-10-2024 [12:50:27] Outputting spin pumping data to file atoms-spin-pumping-00000290.data
+11-10-2024 [12:50:27] Outputting spin pumping data to file atoms-spin-pumping-00000291.data
+11-10-2024 [12:50:28] Outputting spin pumping data to file atoms-spin-pumping-00000292.data
+11-10-2024 [12:50:28] Outputting spin pumping data to file atoms-spin-pumping-00000293.data
+11-10-2024 [12:50:29] Outputting spin pumping data to file atoms-spin-pumping-00000294.data
+11-10-2024 [12:50:29] Outputting spin pumping data to file atoms-spin-pumping-00000295.data
+11-10-2024 [12:50:30] Outputting spin pumping data to file atoms-spin-pumping-00000296.data
+11-10-2024 [12:50:30] Outputting spin pumping data to file atoms-spin-pumping-00000297.data
+11-10-2024 [12:50:31] Outputting spin pumping data to file atoms-spin-pumping-00000298.data
+11-10-2024 [12:50:31] Outputting spin pumping data to file atoms-spin-pumping-00000299.data
+11-10-2024 [12:50:32] Outputting spin pumping data to file atoms-spin-pumping-00000300.data
+11-10-2024 [12:50:32] Outputting spin pumping data to file atoms-spin-pumping-00000301.data
+11-10-2024 [12:50:33] Outputting spin pumping data to file atoms-spin-pumping-00000302.data
+11-10-2024 [12:50:33] Outputting spin pumping data to file atoms-spin-pumping-00000303.data
+11-10-2024 [12:50:34] Outputting spin pumping data to file atoms-spin-pumping-00000304.data
+11-10-2024 [12:50:34] Outputting spin pumping data to file atoms-spin-pumping-00000305.data
+11-10-2024 [12:50:35] Outputting spin pumping data to file atoms-spin-pumping-00000306.data
+11-10-2024 [12:50:36] Outputting spin pumping data to file atoms-spin-pumping-00000307.data
+11-10-2024 [12:50:36] Outputting spin pumping data to file atoms-spin-pumping-00000308.data
+11-10-2024 [12:50:37] Outputting spin pumping data to file atoms-spin-pumping-00000309.data
+11-10-2024 [12:50:37] Outputting spin pumping data to file atoms-spin-pumping-00000310.data
+11-10-2024 [12:50:38] Outputting spin pumping data to file atoms-spin-pumping-00000311.data
+11-10-2024 [12:50:38] Outputting spin pumping data to file atoms-spin-pumping-00000312.data
+11-10-2024 [12:50:39] Outputting spin pumping data to file atoms-spin-pumping-00000313.data
+11-10-2024 [12:50:39] Outputting spin pumping data to file atoms-spin-pumping-00000314.data
+11-10-2024 [12:50:40] Outputting spin pumping data to file atoms-spin-pumping-00000315.data
+11-10-2024 [12:50:40] Outputting spin pumping data to file atoms-spin-pumping-00000316.data
+11-10-2024 [12:50:41] Outputting spin pumping data to file atoms-spin-pumping-00000317.data
+11-10-2024 [12:50:41] Outputting spin pumping data to file atoms-spin-pumping-00000318.data
+11-10-2024 [12:50:42] Outputting spin pumping data to file atoms-spin-pumping-00000319.data
+11-10-2024 [12:50:42] Outputting spin pumping data to file atoms-spin-pumping-00000320.data
+11-10-2024 [12:50:43] Outputting spin pumping data to file atoms-spin-pumping-00000321.data
+11-10-2024 [12:50:43] Outputting spin pumping data to file atoms-spin-pumping-00000322.data
+11-10-2024 [12:50:44] Outputting spin pumping data to file atoms-spin-pumping-00000323.data
+11-10-2024 [12:50:44] Outputting spin pumping data to file atoms-spin-pumping-00000324.data
+11-10-2024 [12:50:45] Outputting spin pumping data to file atoms-spin-pumping-00000325.data
+11-10-2024 [12:50:46] Outputting spin pumping data to file atoms-spin-pumping-00000326.data
+11-10-2024 [12:50:46] Outputting spin pumping data to file atoms-spin-pumping-00000327.data
+11-10-2024 [12:50:47] Outputting spin pumping data to file atoms-spin-pumping-00000328.data
+11-10-2024 [12:50:47] Outputting spin pumping data to file atoms-spin-pumping-00000329.data
+11-10-2024 [12:50:48] Outputting spin pumping data to file atoms-spin-pumping-00000330.data
+11-10-2024 [12:50:48] Outputting spin pumping data to file atoms-spin-pumping-00000331.data
+11-10-2024 [12:50:49] Outputting spin pumping data to file atoms-spin-pumping-00000332.data
+11-10-2024 [12:50:49] Outputting spin pumping data to file atoms-spin-pumping-00000333.data
+11-10-2024 [12:50:50] Outputting spin pumping data to file atoms-spin-pumping-00000334.data
+11-10-2024 [12:50:50] Outputting spin pumping data to file atoms-spin-pumping-00000335.data
+11-10-2024 [12:50:51] Outputting spin pumping data to file atoms-spin-pumping-00000336.data
+11-10-2024 [12:50:51] Outputting spin pumping data to file atoms-spin-pumping-00000337.data
+11-10-2024 [12:50:52] Outputting spin pumping data to file atoms-spin-pumping-00000338.data
+11-10-2024 [12:50:52] Outputting spin pumping data to file atoms-spin-pumping-00000339.data
+11-10-2024 [12:50:53] Outputting spin pumping data to file atoms-spin-pumping-00000340.data
+11-10-2024 [12:50:53] Outputting spin pumping data to file atoms-spin-pumping-00000341.data
+11-10-2024 [12:50:54] Outputting spin pumping data to file atoms-spin-pumping-00000342.data
+11-10-2024 [12:50:54] Outputting spin pumping data to file atoms-spin-pumping-00000343.data
+11-10-2024 [12:50:55] Outputting spin pumping data to file atoms-spin-pumping-00000344.data
+11-10-2024 [12:50:55] Outputting spin pumping data to file atoms-spin-pumping-00000345.data
+11-10-2024 [12:50:56] Outputting spin pumping data to file atoms-spin-pumping-00000346.data
+11-10-2024 [12:50:57] Outputting spin pumping data to file atoms-spin-pumping-00000347.data
+11-10-2024 [12:50:57] Outputting spin pumping data to file atoms-spin-pumping-00000348.data
+11-10-2024 [12:50:58] Outputting spin pumping data to file atoms-spin-pumping-00000349.data
+11-10-2024 [12:50:58] Outputting spin pumping data to file atoms-spin-pumping-00000350.data
+11-10-2024 [12:50:59] Outputting spin pumping data to file atoms-spin-pumping-00000351.data
+11-10-2024 [12:50:59] Outputting spin pumping data to file atoms-spin-pumping-00000352.data
+11-10-2024 [12:51:00] Outputting spin pumping data to file atoms-spin-pumping-00000353.data
+11-10-2024 [12:51:00] Outputting spin pumping data to file atoms-spin-pumping-00000354.data
+11-10-2024 [12:51:01] Outputting spin pumping data to file atoms-spin-pumping-00000355.data
+11-10-2024 [12:51:01] Outputting spin pumping data to file atoms-spin-pumping-00000356.data
+11-10-2024 [12:51:02] Outputting spin pumping data to file atoms-spin-pumping-00000357.data
+11-10-2024 [12:51:02] Outputting spin pumping data to file atoms-spin-pumping-00000358.data
+11-10-2024 [12:51:03] Outputting spin pumping data to file atoms-spin-pumping-00000359.data
+11-10-2024 [12:51:03] Outputting spin pumping data to file atoms-spin-pumping-00000360.data
+11-10-2024 [12:51:04] Outputting spin pumping data to file atoms-spin-pumping-00000361.data
+11-10-2024 [12:51:04] Outputting spin pumping data to file atoms-spin-pumping-00000362.data
+11-10-2024 [12:51:05] Outputting spin pumping data to file atoms-spin-pumping-00000363.data
+11-10-2024 [12:51:05] Outputting spin pumping data to file atoms-spin-pumping-00000364.data
+11-10-2024 [12:51:06] Outputting spin pumping data to file atoms-spin-pumping-00000365.data
+11-10-2024 [12:51:07] Outputting spin pumping data to file atoms-spin-pumping-00000366.data
+11-10-2024 [12:51:07] Outputting spin pumping data to file atoms-spin-pumping-00000367.data
+11-10-2024 [12:51:08] Outputting spin pumping data to file atoms-spin-pumping-00000368.data
+11-10-2024 [12:51:08] Outputting spin pumping data to file atoms-spin-pumping-00000369.data
+11-10-2024 [12:51:09] Outputting spin pumping data to file atoms-spin-pumping-00000370.data
+11-10-2024 [12:51:09] Outputting spin pumping data to file atoms-spin-pumping-00000371.data
+11-10-2024 [12:51:10] Outputting spin pumping data to file atoms-spin-pumping-00000372.data
+11-10-2024 [12:51:10] Outputting spin pumping data to file atoms-spin-pumping-00000373.data
+11-10-2024 [12:51:11] Outputting spin pumping data to file atoms-spin-pumping-00000374.data
+11-10-2024 [12:51:11] Outputting spin pumping data to file atoms-spin-pumping-00000375.data
+11-10-2024 [12:51:12] Outputting spin pumping data to file atoms-spin-pumping-00000376.data
+11-10-2024 [12:51:12] Outputting spin pumping data to file atoms-spin-pumping-00000377.data
+11-10-2024 [12:51:13] Outputting spin pumping data to file atoms-spin-pumping-00000378.data
+11-10-2024 [12:51:13] Outputting spin pumping data to file atoms-spin-pumping-00000379.data
+11-10-2024 [12:51:14] Outputting spin pumping data to file atoms-spin-pumping-00000380.data
+11-10-2024 [12:51:14] Outputting spin pumping data to file atoms-spin-pumping-00000381.data
+11-10-2024 [12:51:15] Outputting spin pumping data to file atoms-spin-pumping-00000382.data
+11-10-2024 [12:51:15] Outputting spin pumping data to file atoms-spin-pumping-00000383.data
+11-10-2024 [12:51:16] Outputting spin pumping data to file atoms-spin-pumping-00000384.data
+11-10-2024 [12:51:17] Outputting spin pumping data to file atoms-spin-pumping-00000385.data
+11-10-2024 [12:51:17] Outputting spin pumping data to file atoms-spin-pumping-00000386.data
+11-10-2024 [12:51:18] Outputting spin pumping data to file atoms-spin-pumping-00000387.data
+11-10-2024 [12:51:18] Outputting spin pumping data to file atoms-spin-pumping-00000388.data
+11-10-2024 [12:51:19] Outputting spin pumping data to file atoms-spin-pumping-00000389.data
+11-10-2024 [12:51:19] Outputting spin pumping data to file atoms-spin-pumping-00000390.data
+11-10-2024 [12:51:20] Outputting spin pumping data to file atoms-spin-pumping-00000391.data
+11-10-2024 [12:51:20] Outputting spin pumping data to file atoms-spin-pumping-00000392.data
+11-10-2024 [12:51:21] Outputting spin pumping data to file atoms-spin-pumping-00000393.data
+11-10-2024 [12:51:21] Outputting spin pumping data to file atoms-spin-pumping-00000394.data
+11-10-2024 [12:51:22] Outputting spin pumping data to file atoms-spin-pumping-00000395.data
+11-10-2024 [12:51:22] Outputting spin pumping data to file atoms-spin-pumping-00000396.data
+11-10-2024 [12:51:23] Outputting spin pumping data to file atoms-spin-pumping-00000397.data
+11-10-2024 [12:51:23] Outputting spin pumping data to file atoms-spin-pumping-00000398.data
+11-10-2024 [12:51:24] Outputting spin pumping data to file atoms-spin-pumping-00000399.data
+11-10-2024 [12:51:25] Outputting spin pumping data to file atoms-spin-pumping-00000400.data
+11-10-2024 [12:51:25] Outputting spin pumping data to file atoms-spin-pumping-00000401.data
+11-10-2024 [12:51:26] Outputting spin pumping data to file atoms-spin-pumping-00000402.data
+11-10-2024 [12:51:26] Outputting spin pumping data to file atoms-spin-pumping-00000403.data
+11-10-2024 [12:51:27] Outputting spin pumping data to file atoms-spin-pumping-00000404.data
+11-10-2024 [12:51:27] Outputting spin pumping data to file atoms-spin-pumping-00000405.data
+11-10-2024 [12:51:28] Outputting spin pumping data to file atoms-spin-pumping-00000406.data
+11-10-2024 [12:51:28] Outputting spin pumping data to file atoms-spin-pumping-00000407.data
+11-10-2024 [12:51:29] Outputting spin pumping data to file atoms-spin-pumping-00000408.data
+11-10-2024 [12:51:29] Outputting spin pumping data to file atoms-spin-pumping-00000409.data
+11-10-2024 [12:51:30] Outputting spin pumping data to file atoms-spin-pumping-00000410.data
+11-10-2024 [12:51:30] Outputting spin pumping data to file atoms-spin-pumping-00000411.data
+11-10-2024 [12:51:31] Outputting spin pumping data to file atoms-spin-pumping-00000412.data
+11-10-2024 [12:51:31] Outputting spin pumping data to file atoms-spin-pumping-00000413.data
+11-10-2024 [12:51:32] Outputting spin pumping data to file atoms-spin-pumping-00000414.data
+11-10-2024 [12:51:32] Outputting spin pumping data to file atoms-spin-pumping-00000415.data
+11-10-2024 [12:51:33] Outputting spin pumping data to file atoms-spin-pumping-00000416.data
+11-10-2024 [12:51:33] Outputting spin pumping data to file atoms-spin-pumping-00000417.data
+11-10-2024 [12:51:34] Outputting spin pumping data to file atoms-spin-pumping-00000418.data
+11-10-2024 [12:51:35] Outputting spin pumping data to file atoms-spin-pumping-00000419.data
+11-10-2024 [12:51:35] Outputting spin pumping data to file atoms-spin-pumping-00000420.data
+11-10-2024 [12:51:36] Outputting spin pumping data to file atoms-spin-pumping-00000421.data
+11-10-2024 [12:51:36] Outputting spin pumping data to file atoms-spin-pumping-00000422.data
+11-10-2024 [12:51:37] Outputting spin pumping data to file atoms-spin-pumping-00000423.data
+11-10-2024 [12:51:37] Outputting spin pumping data to file atoms-spin-pumping-00000424.data
+11-10-2024 [12:51:38] Outputting spin pumping data to file atoms-spin-pumping-00000425.data
+11-10-2024 [12:51:38] Outputting spin pumping data to file atoms-spin-pumping-00000426.data
+11-10-2024 [12:51:39] Outputting spin pumping data to file atoms-spin-pumping-00000427.data
+11-10-2024 [12:51:39] Outputting spin pumping data to file atoms-spin-pumping-00000428.data
+11-10-2024 [12:51:40] Outputting spin pumping data to file atoms-spin-pumping-00000429.data
+11-10-2024 [12:51:41] Outputting spin pumping data to file atoms-spin-pumping-00000430.data
+11-10-2024 [12:51:41] Outputting spin pumping data to file atoms-spin-pumping-00000431.data
+11-10-2024 [12:51:42] Outputting spin pumping data to file atoms-spin-pumping-00000432.data
+11-10-2024 [12:51:42] Outputting spin pumping data to file atoms-spin-pumping-00000433.data
+11-10-2024 [12:51:43] Outputting spin pumping data to file atoms-spin-pumping-00000434.data
+11-10-2024 [12:51:43] Outputting spin pumping data to file atoms-spin-pumping-00000435.data
+11-10-2024 [12:51:44] Outputting spin pumping data to file atoms-spin-pumping-00000436.data
+11-10-2024 [12:51:44] Outputting spin pumping data to file atoms-spin-pumping-00000437.data
+11-10-2024 [12:51:45] Outputting spin pumping data to file atoms-spin-pumping-00000438.data
+11-10-2024 [12:51:45] Outputting spin pumping data to file atoms-spin-pumping-00000439.data
+11-10-2024 [12:51:46] Outputting spin pumping data to file atoms-spin-pumping-00000440.data
+11-10-2024 [12:51:46] Outputting spin pumping data to file atoms-spin-pumping-00000441.data
+11-10-2024 [12:51:47] Outputting spin pumping data to file atoms-spin-pumping-00000442.data
+11-10-2024 [12:51:47] Outputting spin pumping data to file atoms-spin-pumping-00000443.data
+11-10-2024 [12:51:48] Outputting spin pumping data to file atoms-spin-pumping-00000444.data
+11-10-2024 [12:51:48] Outputting spin pumping data to file atoms-spin-pumping-00000445.data
+11-10-2024 [12:51:49] Outputting spin pumping data to file atoms-spin-pumping-00000446.data
+11-10-2024 [12:51:49] Outputting spin pumping data to file atoms-spin-pumping-00000447.data
+11-10-2024 [12:51:50] Outputting spin pumping data to file atoms-spin-pumping-00000448.data
+11-10-2024 [12:51:51] Outputting spin pumping data to file atoms-spin-pumping-00000449.data
+11-10-2024 [12:51:51] Outputting spin pumping data to file atoms-spin-pumping-00000450.data
+11-10-2024 [12:51:52] Outputting spin pumping data to file atoms-spin-pumping-00000451.data
+11-10-2024 [12:51:52] Outputting spin pumping data to file atoms-spin-pumping-00000452.data
+11-10-2024 [12:51:53] Outputting spin pumping data to file atoms-spin-pumping-00000453.data
+11-10-2024 [12:51:53] Outputting spin pumping data to file atoms-spin-pumping-00000454.data
+11-10-2024 [12:51:54] Outputting spin pumping data to file atoms-spin-pumping-00000455.data
+11-10-2024 [12:51:54] Outputting spin pumping data to file atoms-spin-pumping-00000456.data
+11-10-2024 [12:51:55] Outputting spin pumping data to file atoms-spin-pumping-00000457.data
+11-10-2024 [12:51:55] Outputting spin pumping data to file atoms-spin-pumping-00000458.data
+11-10-2024 [12:51:56] Outputting spin pumping data to file atoms-spin-pumping-00000459.data
+11-10-2024 [12:51:56] Outputting spin pumping data to file atoms-spin-pumping-00000460.data
+11-10-2024 [12:51:57] Outputting spin pumping data to file atoms-spin-pumping-00000461.data
+11-10-2024 [12:51:57] Outputting spin pumping data to file atoms-spin-pumping-00000462.data
+11-10-2024 [12:51:58] Outputting spin pumping data to file atoms-spin-pumping-00000463.data
+11-10-2024 [12:51:58] Outputting spin pumping data to file atoms-spin-pumping-00000464.data
+11-10-2024 [12:51:59] Outputting spin pumping data to file atoms-spin-pumping-00000465.data
+11-10-2024 [12:51:59] Outputting spin pumping data to file atoms-spin-pumping-00000466.data
+11-10-2024 [12:52:00] Outputting spin pumping data to file atoms-spin-pumping-00000467.data
+11-10-2024 [12:52:01] Outputting spin pumping data to file atoms-spin-pumping-00000468.data
+11-10-2024 [12:52:01] Outputting spin pumping data to file atoms-spin-pumping-00000469.data
+11-10-2024 [12:52:02] Outputting spin pumping data to file atoms-spin-pumping-00000470.data
+11-10-2024 [12:52:02] Outputting spin pumping data to file atoms-spin-pumping-00000471.data
+11-10-2024 [12:52:03] Outputting spin pumping data to file atoms-spin-pumping-00000472.data
+11-10-2024 [12:52:03] Outputting spin pumping data to file atoms-spin-pumping-00000473.data
+11-10-2024 [12:52:04] Outputting spin pumping data to file atoms-spin-pumping-00000474.data
+11-10-2024 [12:52:04] Outputting spin pumping data to file atoms-spin-pumping-00000475.data
+11-10-2024 [12:52:05] Outputting spin pumping data to file atoms-spin-pumping-00000476.data
+11-10-2024 [12:52:05] Outputting spin pumping data to file atoms-spin-pumping-00000477.data
+11-10-2024 [12:52:06] Outputting spin pumping data to file atoms-spin-pumping-00000478.data
+11-10-2024 [12:52:06] Outputting spin pumping data to file atoms-spin-pumping-00000479.data
+11-10-2024 [12:52:07] Outputting spin pumping data to file atoms-spin-pumping-00000480.data
+11-10-2024 [12:52:07] Outputting spin pumping data to file atoms-spin-pumping-00000481.data
+11-10-2024 [12:52:08] Outputting spin pumping data to file atoms-spin-pumping-00000482.data
+11-10-2024 [12:52:08] Outputting spin pumping data to file atoms-spin-pumping-00000483.data
+11-10-2024 [12:52:09] Outputting spin pumping data to file atoms-spin-pumping-00000484.data
+11-10-2024 [12:52:10] Outputting spin pumping data to file atoms-spin-pumping-00000485.data
+11-10-2024 [12:52:10] Outputting spin pumping data to file atoms-spin-pumping-00000486.data
+11-10-2024 [12:52:11] Outputting spin pumping data to file atoms-spin-pumping-00000487.data
+11-10-2024 [12:52:11] Outputting spin pumping data to file atoms-spin-pumping-00000488.data
+11-10-2024 [12:52:12] Outputting spin pumping data to file atoms-spin-pumping-00000489.data
+11-10-2024 [12:52:12] Outputting spin pumping data to file atoms-spin-pumping-00000490.data
+11-10-2024 [12:52:13] Outputting spin pumping data to file atoms-spin-pumping-00000491.data
+11-10-2024 [12:52:13] Outputting spin pumping data to file atoms-spin-pumping-00000492.data
+11-10-2024 [12:52:14] Outputting spin pumping data to file atoms-spin-pumping-00000493.data
+11-10-2024 [12:52:14] Outputting spin pumping data to file atoms-spin-pumping-00000494.data
+11-10-2024 [12:52:15] Outputting spin pumping data to file atoms-spin-pumping-00000495.data
+11-10-2024 [12:52:15] Outputting spin pumping data to file atoms-spin-pumping-00000496.data
+11-10-2024 [12:52:16] Outputting spin pumping data to file atoms-spin-pumping-00000497.data
+11-10-2024 [12:52:16] Outputting spin pumping data to file atoms-spin-pumping-00000498.data
+11-10-2024 [12:52:17] Outputting spin pumping data to file atoms-spin-pumping-00000499.data
+11-10-2024 [12:52:17] Outputting spin pumping data to file atoms-spin-pumping-00000500.data
+11-10-2024 [12:52:18] Outputting spin pumping data to file atoms-spin-pumping-00000501.data
+11-10-2024 [12:52:19] Outputting spin pumping data to file atoms-spin-pumping-00000502.data
+11-10-2024 [12:52:19] Outputting spin pumping data to file atoms-spin-pumping-00000503.data
+11-10-2024 [12:52:20] Outputting spin pumping data to file atoms-spin-pumping-00000504.data
+11-10-2024 [12:52:20] Outputting spin pumping data to file atoms-spin-pumping-00000505.data
+11-10-2024 [12:52:21] Outputting spin pumping data to file atoms-spin-pumping-00000506.data
+11-10-2024 [12:52:21] Outputting spin pumping data to file atoms-spin-pumping-00000507.data
+11-10-2024 [12:52:22] Outputting spin pumping data to file atoms-spin-pumping-00000508.data
+11-10-2024 [12:52:22] Outputting spin pumping data to file atoms-spin-pumping-00000509.data
+11-10-2024 [12:52:23] Outputting spin pumping data to file atoms-spin-pumping-00000510.data
+11-10-2024 [12:52:23] Outputting spin pumping data to file atoms-spin-pumping-00000511.data
+11-10-2024 [12:52:24] Outputting spin pumping data to file atoms-spin-pumping-00000512.data
+11-10-2024 [12:52:24] Outputting spin pumping data to file atoms-spin-pumping-00000513.data
+11-10-2024 [12:52:25] Outputting spin pumping data to file atoms-spin-pumping-00000514.data
+11-10-2024 [12:52:25] Outputting spin pumping data to file atoms-spin-pumping-00000515.data
+11-10-2024 [12:52:26] Outputting spin pumping data to file atoms-spin-pumping-00000516.data
+11-10-2024 [12:52:26] Outputting spin pumping data to file atoms-spin-pumping-00000517.data
+11-10-2024 [12:52:27] Outputting spin pumping data to file atoms-spin-pumping-00000518.data
+11-10-2024 [12:52:28] Outputting spin pumping data to file atoms-spin-pumping-00000519.data
+11-10-2024 [12:52:28] Outputting spin pumping data to file atoms-spin-pumping-00000520.data
+11-10-2024 [12:52:29] Outputting spin pumping data to file atoms-spin-pumping-00000521.data
+11-10-2024 [12:52:29] Outputting spin pumping data to file atoms-spin-pumping-00000522.data
+11-10-2024 [12:52:30] Outputting spin pumping data to file atoms-spin-pumping-00000523.data
+11-10-2024 [12:52:30] Outputting spin pumping data to file atoms-spin-pumping-00000524.data
+11-10-2024 [12:52:31] Outputting spin pumping data to file atoms-spin-pumping-00000525.data
+11-10-2024 [12:52:31] Outputting spin pumping data to file atoms-spin-pumping-00000526.data
+11-10-2024 [12:52:32] Outputting spin pumping data to file atoms-spin-pumping-00000527.data
+11-10-2024 [12:52:32] Outputting spin pumping data to file atoms-spin-pumping-00000528.data
+11-10-2024 [12:52:33] Outputting spin pumping data to file atoms-spin-pumping-00000529.data
+11-10-2024 [12:52:33] Outputting spin pumping data to file atoms-spin-pumping-00000530.data
+11-10-2024 [12:52:34] Outputting spin pumping data to file atoms-spin-pumping-00000531.data
+11-10-2024 [12:52:34] Outputting spin pumping data to file atoms-spin-pumping-00000532.data
+11-10-2024 [12:52:35] Outputting spin pumping data to file atoms-spin-pumping-00000533.data
+11-10-2024 [12:52:35] Outputting spin pumping data to file atoms-spin-pumping-00000534.data
+11-10-2024 [12:52:36] Outputting spin pumping data to file atoms-spin-pumping-00000535.data
+11-10-2024 [12:52:36] Outputting spin pumping data to file atoms-spin-pumping-00000536.data
+11-10-2024 [12:52:37] Outputting spin pumping data to file atoms-spin-pumping-00000537.data
+11-10-2024 [12:52:37] Outputting spin pumping data to file atoms-spin-pumping-00000538.data
+11-10-2024 [12:52:38] Outputting spin pumping data to file atoms-spin-pumping-00000539.data
+11-10-2024 [12:52:39] Outputting spin pumping data to file atoms-spin-pumping-00000540.data
+11-10-2024 [12:52:39] Outputting spin pumping data to file atoms-spin-pumping-00000541.data
+11-10-2024 [12:52:40] Outputting spin pumping data to file atoms-spin-pumping-00000542.data
+11-10-2024 [12:52:40] Outputting spin pumping data to file atoms-spin-pumping-00000543.data
+11-10-2024 [12:52:41] Outputting spin pumping data to file atoms-spin-pumping-00000544.data
+11-10-2024 [12:52:41] Outputting spin pumping data to file atoms-spin-pumping-00000545.data
+11-10-2024 [12:52:42] Outputting spin pumping data to file atoms-spin-pumping-00000546.data
+11-10-2024 [12:52:42] Outputting spin pumping data to file atoms-spin-pumping-00000547.data
+11-10-2024 [12:52:43] Outputting spin pumping data to file atoms-spin-pumping-00000548.data
+11-10-2024 [12:52:43] Outputting spin pumping data to file atoms-spin-pumping-00000549.data
+11-10-2024 [12:52:44] Outputting spin pumping data to file atoms-spin-pumping-00000550.data
+11-10-2024 [12:52:44] Outputting spin pumping data to file atoms-spin-pumping-00000551.data
+11-10-2024 [12:52:45] Outputting spin pumping data to file atoms-spin-pumping-00000552.data
+11-10-2024 [12:52:45] Outputting spin pumping data to file atoms-spin-pumping-00000553.data
+11-10-2024 [12:52:46] Outputting spin pumping data to file atoms-spin-pumping-00000554.data
+11-10-2024 [12:52:46] Outputting spin pumping data to file atoms-spin-pumping-00000555.data
+11-10-2024 [12:52:47] Outputting spin pumping data to file atoms-spin-pumping-00000556.data
+11-10-2024 [12:52:47] Outputting spin pumping data to file atoms-spin-pumping-00000557.data
+11-10-2024 [12:52:48] Outputting spin pumping data to file atoms-spin-pumping-00000558.data
+11-10-2024 [12:52:49] Outputting spin pumping data to file atoms-spin-pumping-00000559.data
+11-10-2024 [12:52:49] Outputting spin pumping data to file atoms-spin-pumping-00000560.data
+11-10-2024 [12:52:50] Outputting spin pumping data to file atoms-spin-pumping-00000561.data
+11-10-2024 [12:52:50] Outputting spin pumping data to file atoms-spin-pumping-00000562.data
+11-10-2024 [12:52:51] Outputting spin pumping data to file atoms-spin-pumping-00000563.data
+11-10-2024 [12:52:51] Outputting spin pumping data to file atoms-spin-pumping-00000564.data
+11-10-2024 [12:52:52] Outputting spin pumping data to file atoms-spin-pumping-00000565.data
+11-10-2024 [12:52:52] Outputting spin pumping data to file atoms-spin-pumping-00000566.data
+11-10-2024 [12:52:53] Outputting spin pumping data to file atoms-spin-pumping-00000567.data
+11-10-2024 [12:52:53] Outputting spin pumping data to file atoms-spin-pumping-00000568.data
+11-10-2024 [12:52:54] Outputting spin pumping data to file atoms-spin-pumping-00000569.data
+11-10-2024 [12:52:54] Outputting spin pumping data to file atoms-spin-pumping-00000570.data
+11-10-2024 [12:52:55] Outputting spin pumping data to file atoms-spin-pumping-00000571.data
+11-10-2024 [12:52:55] Outputting spin pumping data to file atoms-spin-pumping-00000572.data
+11-10-2024 [12:52:56] Outputting spin pumping data to file atoms-spin-pumping-00000573.data
+11-10-2024 [12:52:57] Outputting spin pumping data to file atoms-spin-pumping-00000574.data
+11-10-2024 [12:52:57] Outputting spin pumping data to file atoms-spin-pumping-00000575.data
+11-10-2024 [12:52:58] Outputting spin pumping data to file atoms-spin-pumping-00000576.data
+11-10-2024 [12:52:58] Outputting spin pumping data to file atoms-spin-pumping-00000577.data
+11-10-2024 [12:52:59] Outputting spin pumping data to file atoms-spin-pumping-00000578.data
+11-10-2024 [12:52:59] Outputting spin pumping data to file atoms-spin-pumping-00000579.data
+11-10-2024 [12:53:00] Outputting spin pumping data to file atoms-spin-pumping-00000580.data
+11-10-2024 [12:53:00] Outputting spin pumping data to file atoms-spin-pumping-00000581.data
+11-10-2024 [12:53:01] Outputting spin pumping data to file atoms-spin-pumping-00000582.data
+11-10-2024 [12:53:01] Outputting spin pumping data to file atoms-spin-pumping-00000583.data
+11-10-2024 [12:53:02] Outputting spin pumping data to file atoms-spin-pumping-00000584.data
+11-10-2024 [12:53:02] Outputting spin pumping data to file atoms-spin-pumping-00000585.data
+11-10-2024 [12:53:03] Outputting spin pumping data to file atoms-spin-pumping-00000586.data
+11-10-2024 [12:53:03] Outputting spin pumping data to file atoms-spin-pumping-00000587.data
+11-10-2024 [12:53:04] Outputting spin pumping data to file atoms-spin-pumping-00000588.data
+11-10-2024 [12:53:04] Outputting spin pumping data to file atoms-spin-pumping-00000589.data
+11-10-2024 [12:53:05] Outputting spin pumping data to file atoms-spin-pumping-00000590.data
+11-10-2024 [12:53:05] Outputting spin pumping data to file atoms-spin-pumping-00000591.data
+11-10-2024 [12:53:06] Outputting spin pumping data to file atoms-spin-pumping-00000592.data
+11-10-2024 [12:53:06] Outputting spin pumping data to file atoms-spin-pumping-00000593.data
+11-10-2024 [12:53:07] Outputting spin pumping data to file atoms-spin-pumping-00000594.data
+11-10-2024 [12:53:07] Outputting spin pumping data to file atoms-spin-pumping-00000595.data
+11-10-2024 [12:53:08] Outputting spin pumping data to file atoms-spin-pumping-00000596.data
+11-10-2024 [12:53:09] Outputting spin pumping data to file atoms-spin-pumping-00000597.data
+11-10-2024 [12:53:09] Outputting spin pumping data to file atoms-spin-pumping-00000598.data
+11-10-2024 [12:53:10] Outputting spin pumping data to file atoms-spin-pumping-00000599.data
+11-10-2024 [12:53:10] Simulation run time [s]: 316.854
+11-10-2024 [12:53:10] Simulation ended gracefully.
